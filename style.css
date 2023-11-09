@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(bgg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-attachment: fixed; */
+    min-height: 100vh;
+    color: rgb(224, 31, 234);
+    overflow: hidden;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.container{
+    z-index: 999;
+}
+.countdown{
+    /* text-align: center; */
+    font-size: 3rem;
+}
+.timer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.time{
+    font-weight: bild;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border: 4px solid #67aeae;
+    backdrop-filter: blur(10px);
+    margin: 0 1rem;
+    border-radius: 1rem;
+}
+.countdown-container span{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(233, 233, 233);
+}
